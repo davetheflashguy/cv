@@ -1,4 +1,3 @@
-cv
-==
-
-Personal CV of developer Dave Collier
+CV
+===================
+Personal Portfolio of Developer, Dave Collier
