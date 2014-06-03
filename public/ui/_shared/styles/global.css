@@ -1,11 +1,19 @@
+.spacer {
+  height: 56px;
+}
+
 .home-container {
   margin-top: 45px;
+  min-height: 449px;
+}
+
+.resume-container {
+  min-height: 2223px;
 }
 
 .home-container,
 .resume-container,
 .contact-container {
-  min-height: 400px;
   height: auto;
   padding-left:20px;
   padding-right:20px;
