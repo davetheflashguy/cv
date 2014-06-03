@@ -1,0 +1,14 @@
+{
+  "name": "backbone",
+  "_cacheHeaders": {
+    "ETag": "\"fbde26b67818da6e2b64584a9fa70610\"",
+    "Content-Length": "60514",
+    "Content-Type": "text/plain; charset=utf-8",
+    "Content-Disposition": "inline"
+  },
+  "_release": "e-tag:fbde26b67",
+  "main": "index.js",
+  "_source": "https://raw.github.com/jashkenas/backbone/master/backbone.js",
+  "_target": "*",
+  "_originalSource": "https://raw.github.com/jashkenas/backbone/master/backbone.js"
+}

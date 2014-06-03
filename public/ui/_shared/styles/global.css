@@ -1,0 +1,41 @@
+.home-container {
+  margin-top: 45px;
+}
+
+.home-container,
+.resume-container,
+.contact-container {
+  min-height: 400px;
+  height: auto;
+  padding: 20px;
+}
+
+.resume-job-title {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.resume-company-name {
+  font-style:italic;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.resume-job-duration {
+  color: #999999;
+  margin-bottom: 20px;
+}
+
+.resume-job-description {
+  margin-bottom: 0;
+}
+
+.resume-project-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.resume-project-description {
+  color: #666666;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.0",
+  "authors": [
+    "Dave Collier <collier@oneononeads.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/bower_components"
+  ],
+  "homepage": "https://github.com/oneononeads/video-creation-tool/",
+  "dependencies": {
+    "almond": "~0.2.6",
+    "jquery": "~1.10.2",
+    "jquery-ui-amd": "~0.0.3",
+    "bootstrap": "~3.0.3",
+    "lodash": "~2.3.0",
+    "backbone": "https://raw.github.com/jashkenas/backbone/master/backbone.js",
+    "handlebars": "~1.1.2",
+    "holderjs": "2.3",
+    "requirejs-text": "~2.0.10",
+    "requirejs-handlebars-plugin": "https://github.com/mundizzle/requirejs-handlebars-plugin/archive/v0.0.3.zip",
+    "requirejs": "~2.1.9",
+    "require-css": "~0.1.0",
+    "mocha": "~1.16.2",
+    "expect": "~0.2.0"
+  }
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio of Dave Collier</title>
+</head>
+<body>
+		<article class="menu-container"></article>
+		<article class="main-container container">
+			<section class="home-container">
+
+			</section>
+			<section class="resume-container">
+
+			</section>
+			<section class="contact-container">
+
+			</section>
+		</article>
+		</div>
+	<script>
+		(function(){
+
+			var script = document.createElement('script');
+
+			var head = document.head || document.getElementsByTagName('head')[0];
+			if(localStorage.isDevMode){
+
+				require = {
+					deps: ['app.start']
+				};
+
+				script.setAttribute('data-main', 'app.config');
+				script.setAttribute('src', 'bower_components/requirejs/require.js');
+
+
+
+			}else{
+
+				var link = document.createElement('link')
+						link.setAttribute('media', 'screen');
+						link.setAttribute('rel', 'stylesheet');
+						link.setAttribute('href', 'app.min.css');
+
+				head.appendChild(link);
+				script.setAttribute('src', 'app.min.js');
+
+			}
+
+			head.appendChild(script);
+
+		})();
+
+	</script>
+</body>
+</html>

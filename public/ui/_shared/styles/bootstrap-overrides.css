@@ -1,0 +1,35 @@
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 600 !important;
+}
+
+.dcc-nav {
+  margin-bottom: 0;
+  background-color: #FFF;
+  border-bottom: 0;
+}
+
+.dcc-nav .navbar-brand, .dcc-nav .navbar-nav>li>a {
+  color: #000;
+}
+
+.dcc-nav .navbar-brand {
+  padding: 3px 15px;
+}
+
+.dcc-nav .navbar-nav > li > a:hover,
+.dcc-nav .navbar-nav > li > a:focus {
+  color: #3282c5;
+  background-color: #FFF;
+}
+
+
+.dcc-nav .navbar-nav > .active > a,
+.dcc-nav .navbar-nav > .active > a:hover,
+.dcc-nav .navbar-nav > .active > a:focus {
+  color: #3282c5;
+  background-color: #FFF;
+}
