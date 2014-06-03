@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .dcc-nav {
   margin-bottom: 0;
   background-color: #FFF;
-  border-bottom: 0;
+  padding-bottom: 5px;
 }
 
 .dcc-nav .navbar-brand, .dcc-nav .navbar-nav>li>a {
@@ -32,4 +32,26 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .dcc-nav .navbar-nav > .active > a:focus {
   color: #3282c5;
   background-color: #FFF;
+}
+
+hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+form {
+  padding-top: 10px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-color: #3282c5 !important;
+}
+
+address {
+  margin-bottom: 0;
 }

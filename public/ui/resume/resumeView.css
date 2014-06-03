@@ -1,6 +1,11 @@
 .list-group.resume-list-group > .list-group-item {
   border: none;
   border-top: 1px solid #ddd;
+  padding: 20px 25px;
+}
+
+.list-group.resume-list-group > .list-group-item:last-child {
+    border-top: none;
 }
 
 .project {

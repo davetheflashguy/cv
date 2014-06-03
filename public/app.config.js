@@ -12,6 +12,7 @@ require.config({
 		jquery_ui: 'bower_components/jquery-ui-amd/jquery-ui-1.10.0/jqueryui',
 		underscore: 'bower_components/lodash/dist/lodash',
 		text: 'bower_components/requirejs-text/text',
+		jquery_form_validator: 'ui/_shared/js/jquery.validate.min'
 	},
 	shim: {
 		bootstrap_js: ['jquery']

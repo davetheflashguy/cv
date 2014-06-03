@@ -1,19 +1,27 @@
-<h4>Email: davetheflashguy [@] gmail.com</h4>
-<h4>Twitter: @davetheflashguy</h4>
-<h4>LinkedIn: goo.gl/CqkAVG</h4>
+<h3 class="contact-header">Want to chat about jobs, technology, sports, wives or kids?</h3>
 
-<form role="form">
+  <address>
+    <p class="contact-network-link">
+      Email: <a href="mailto:davetheflashguy@gmail.com">davetheflashguy [@] gmail.com</a>
+    </p>
+   </address>
+</p>
+<p class="contact-network-link">Twitter: <a href="https://twitter.com/davetheflashguy" target="_blank">@davetheflashguy</a></p>
+<p class="contact-network-link">GitHub: <a href="https://github.com/davetheflashguy" target="_blank">https://github.com/davetheflashguy</a></p>
+<p class="contact-network-link">LinkedIn: <a href="https://www.linkedin.com/pub/dave-collier/a/516/1b2" target="_blank">goo.gl/CqkAVG</a></p>
+
+<form id="contact-form" role="form dcc-form">
   <div class="form-group">
     <label for="contactName">Name</label>
-    <input type="text" class="form-control" id="contactName" placeholder="Enter name">
+    <input type="text" class="form-control" name="contactName" id="contactName" placeholder="Enter name">
   </div>
   <div class="form-group">
     <label for="contactEmail">Email</label>
-    <input type="email" class="form-control" id="contactEmail" placeholder="Enter email address">
+    <input type="email" class="form-control" name="contactEmail" id="contactEmail" placeholder="Enter email address">
   </div>
   <div class="form-group">
     <label for="contactMessage">Message</label>
-    <textarea class="form-control" rows="4"></textarea>
+    <textarea class="form-control" rows="4" name="contactMessage" id="contactMessage" placeholder="Enter Message"></textarea>
   </div>
-  <button type="submit" class="btn btn-primary">Send</button>
+  <button type="submit" id="submitBtn" class="btn btn-primary">Send Message</button>
 </form>

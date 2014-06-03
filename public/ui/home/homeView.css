@@ -1,7 +1,7 @@
 .home-banner {
 	height: 215px;
 	background-color: #0d1021;
-	background-image: url(/ui/_shared/images/backbone-banner.jpg);
+	background-image: url(../../resources/images/backbone-banner.jpg);
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: auto 215px;
