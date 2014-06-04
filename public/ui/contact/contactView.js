@@ -58,7 +58,7 @@ define(function (require, exports, module) {
 					// make the ajax call
 					$.ajax({
 						type: "POST",
-						url: "http://davecollier.io/v4/resources/php/contact.php",
+						url: "http://davecollier.io/resources/php/contact.php",
 						data: data,
 						dataType: "json",
 						success: function(data) {
