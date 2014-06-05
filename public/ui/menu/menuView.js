@@ -20,8 +20,11 @@ define(function (require, exports, module) {
 		render: function(){
 
 			// inject base template
-			$(".menu-container").html(themesLayoutTemplate());			
-			$('[data-menu-target="'+Backbone.history.fragment+'"]').addClass("active");
+			$(".menu-container").html(themesLayoutTemplate());
+
+			var route = (Backbone.history.fragment == "") ? "home" : Backbone.history.fragment;
+			$("#dcc-main-navbar li").removeClass("active");
+			$('[data-menu-target="'+route+'"]').addClass("active");
 		},
 
 	});
