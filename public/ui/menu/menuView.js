@@ -20,8 +20,8 @@ define(function (require, exports, module) {
 		render: function(){
 
 			// inject base template
-			$(".menu-container").html(themesLayoutTemplate());
-
+			$(".menu-container").html(themesLayoutTemplate());			
+			$('[data-menu-target="'+Backbone.history.fragment+'"]').addClass("active");
 		},
 
 	});

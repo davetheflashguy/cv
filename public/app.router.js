@@ -24,7 +24,7 @@ define(function (require, exports, module) {
 		var menu = new MenuView();
 				menu.render();
 
-		// menu listeners
+			// menu listeners
 		  var scrolling_speed = 500;
 		  // handle navigation clicks
 		  $("#home-btn").click(function() {
@@ -56,8 +56,7 @@ define(function (require, exports, module) {
 			'home' : 'home',
 			'resume' : 'resume',
 			'contact' : 'contact',
-			'hire-me' : 'contact',
-
+			'hire-me' : 'hireMe',
 		},
 
 		home: function() {
@@ -70,7 +69,6 @@ define(function (require, exports, module) {
 		},
 
 		resume: function() {
-			console.log("happened");
 			$('html, body').animate({
 							scrollTop: $(".resume-container").offset().top - 50
 					}, 500);
@@ -84,6 +82,14 @@ define(function (require, exports, module) {
 					}, 500);
 			$("#dcc-main-navbar li").removeClass("active");
 			$('[data-menu-target="contact"]').addClass("active");
+		},
+
+		hireMe: function() {
+			$('html, body').animate({
+							scrollTop: $(".contact-container").offset().top - 50
+					}, 500);
+			$("#dcc-main-navbar li").removeClass("active");
+			$('[data-menu-target="hire-me"]').addClass("active");
 		},
 
 	});
