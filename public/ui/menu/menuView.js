@@ -25,6 +25,8 @@ define(function (require, exports, module) {
 			var route = (Backbone.history.fragment == "") ? "home" : Backbone.history.fragment;
 			$("#dcc-main-navbar li").removeClass("active");
 			$('[data-menu-target="'+route+'"]').addClass("active");
+
+			var prefixfree = require('prefixfree');
 		},
 
 	});
