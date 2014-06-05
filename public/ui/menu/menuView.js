@@ -22,7 +22,8 @@ define(function (require, exports, module) {
 			// inject base template
 			$(".menu-container").html(themesLayoutTemplate());
 
-		}
+		},
+
 	});
 
 });

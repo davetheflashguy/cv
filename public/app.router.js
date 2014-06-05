@@ -24,7 +24,6 @@ define(function (require, exports, module) {
 		var menu = new MenuView();
 				menu.render();
 
-
 		// menu listeners
 		  var scrolling_speed = 500;
 		  // handle navigation clicks
@@ -65,18 +64,26 @@ define(function (require, exports, module) {
 			$('html, body').animate({
 							scrollTop: $(".home-container").offset().top - 50
 					}, 500);
+
+			$("#dcc-main-navbar li").removeClass("active");
+			$('[data-menu-target="home"]').addClass("active");
 		},
 
 		resume: function() {
+			console.log("happened");
 			$('html, body').animate({
 							scrollTop: $(".resume-container").offset().top - 50
 					}, 500);
+			$("#dcc-main-navbar li").removeClass("active");
+			$('[data-menu-target="resume"]').addClass("active");
 		},
 
 		contact: function() {
 			$('html, body').animate({
 							scrollTop: $(".contact-container").offset().top - 50
 					}, 500);
+			$("#dcc-main-navbar li").removeClass("active");
+			$('[data-menu-target="contact"]').addClass("active");
 		},
 
 	});
