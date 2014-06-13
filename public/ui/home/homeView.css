@@ -1,10 +1,10 @@
-.home-banner {
-	height: 215px;
+.jumbotron{
+	height: 275px;
 	background-color: #0d1021;
-	background-image: url(../../resources/images/backbone-banner.jpg);
+	background-image: url(../../resources/images/home-banner-2x.png);
 	background-repeat: no-repeat;
 	background-position: left top;
-	background-size: auto 215px;
+	background-size: 1130px 300px;
 	border-radius: 9px;
 	-moz-border-radius: 9px;
 	-webkit-border-radius: 9px;
