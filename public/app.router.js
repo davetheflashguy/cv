@@ -4,6 +4,7 @@ define(function (require, exports, module) {
 	var mediator = require('framework/mediator');
 	var appLayoutTemplate = require('html!ui/_shared/layouts/app');
 
+
 	require(['ui/home/homeView'], function(HomeView){
 
 		new HomeView({layoutTemplate: appLayoutTemplate})
@@ -47,6 +48,7 @@ define(function (require, exports, module) {
 								scrollTop: $(".contact-container").offset().top - 50
 						}, scrolling_speed);
 			})
+
 	});
 
 	return Backbone.Router.extend({
@@ -63,33 +65,24 @@ define(function (require, exports, module) {
 			$('html, body').animate({
 							scrollTop: $(".home-container").offset().top - 50
 					}, 500);
-
-			$("#dcc-main-navbar li").removeClass("active");
-			$('[data-menu-target="home"]').addClass("active");
 		},
 
 		resume: function() {
 			$('html, body').animate({
 							scrollTop: $(".resume-container").offset().top - 50
 					}, 500);
-			$("#dcc-main-navbar li").removeClass("active");
-			$('[data-menu-target="resume"]').addClass("active");
 		},
 
 		contact: function() {
 			$('html, body').animate({
 							scrollTop: $(".contact-container").offset().top - 50
 					}, 500);
-			$("#dcc-main-navbar li").removeClass("active");
-			$('[data-menu-target="contact"]').addClass("active");
 		},
 
 		hireMe: function() {
 			$('html, body').animate({
 							scrollTop: $(".contact-container").offset().top - 50
 					}, 500);
-			$("#dcc-main-navbar li").removeClass("active");
-			$('[data-menu-target="hire-me"]').addClass("active");
 		},
 
 	});

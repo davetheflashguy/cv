@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #000;
 }
 
+.nav > li > a {
+  outline:none;
+}
+
 .dcc-nav .navbar-brand {
   padding: 3px 15px;
 }

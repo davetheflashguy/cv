@@ -4,6 +4,7 @@ define(function (require, exports, module) {
 
 	require('css!./menuView');
 	var themesLayoutTemplate = require('html!./menuTemplate');
+	var bootstrap_js = require("bootstrap_js")
 
 
 
@@ -23,10 +24,14 @@ define(function (require, exports, module) {
 			$(".menu-container").html(themesLayoutTemplate());
 
 			var route = (Backbone.history.fragment == "") ? "home" : Backbone.history.fragment;
-			$("#dcc-main-navbar li").removeClass("active");
-			$('[data-menu-target="'+route+'"]').addClass("active");
+			//$("#dcc-main-navbar li").removeClass("active");
+			//$('[data-menu-target="'+route+'"]').addClass("active");
 
 			var prefixfree = require('prefixfree');
+			$('[data-spy="scroll"]').each(function () {
+			  var $spy = $(this).scrollspy('refresh'); // I think this is not needed because nothing was invisible before
+			});
+
 		},
 
 	});
